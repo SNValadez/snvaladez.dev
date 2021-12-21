@@ -1,0 +1,23 @@
+ul {
+
+    display: flex;
+   
+    list-style-type: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: burlywood;
+}
+
+li {
+
+    margin-right: 25px;
+}
+
+li:hover {
+    cursor: pointer;
+}
