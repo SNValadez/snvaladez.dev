@@ -2,8 +2,8 @@ import React from "react";
 import "./style.css"
 import Nav from "../Nav"
 
-function Header() {
-
+function Header(props) {
+     console.log(props.page);
     return (
         <header>
             <h1>

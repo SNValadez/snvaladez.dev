@@ -5,11 +5,11 @@ import Header from "./components/Header"
 
 function App() {
 
-  const [pages, setPages] = useState("About Me")
+  const [page, setPage] = useState("About Me")
 
   return (
     <div className="App">
-      <Header />
+      <Header page={page}/>
 
     </div>
   );
