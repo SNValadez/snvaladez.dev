@@ -24,8 +24,8 @@ function Header() {
         <div className="header-container stoke-me-base">
             <div className="header-parent">
                 <div className="header-details">
-                    <div className="colz">
-                        <div className="colz-icon">
+                    <div className="social">
+                        <div className="social-icon">
 
 
                         <a href="https://github.com/SNValadez">

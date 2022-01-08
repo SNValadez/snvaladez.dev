@@ -1,6 +1,21 @@
 .header-role-tagline{
     margin: 6px 0 0 0;
     font-size: 20px;
+
+}
+
+.social .social-icon i {
+    padding-left: 0px;
+
+    padding: 9px;
+
+  
+}
+
+.social .social-icon i:hover {
+
+    transform: scale(1.6);
+
 }
 
 header {
