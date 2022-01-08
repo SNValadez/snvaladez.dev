@@ -6,17 +6,12 @@ import About from "./components/About"
 
 function App() {
 
-  const [page, setPage] = useState("About Me")
+  //const [page, setPage] = useState("About Me")
 
   return (
     <div className="App">
       
-      <main>
-      <Header page={page}/>
-      <About></About>
-      
-      </main>
-      
+     <Header></Header>
     </div>
   );
 }
