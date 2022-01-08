@@ -1,10 +1,10 @@
 import React from 'react'
 import { TOTAL_SCREAM } from '../utilities/comUtils';
 
-import {TOTAL_SCREAM} from "../utilities/comUtils"
 
 
-function compoCon() {
+
+function Compocon() {
 
     const mapAllScreams =() => {
 
@@ -24,7 +24,7 @@ function compoCon() {
         <div className="compo-container">
             
 
-            {mapAllScreams}
+            {mapAllScreams()}
 
 
 
@@ -34,4 +34,4 @@ function compoCon() {
 
 
 
-export default compoCon;
+export default Compocon;

@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Main from "./components/Main"
 import About from "./components/About"
 //import Footer from "./components/Footer"
+import Compocon from './components/Compocon';
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <div className="App">
 
-      <Main></Main>
+      
+      <Compocon></Compocon>
      {/* <Header></Header>
      <Footer></Footer> */}
     </div>
