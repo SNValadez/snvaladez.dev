@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #23272e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
   --sea-green-extra-dark: #09BEAD;
   --sea-green-shadow: rgba(11, 190, 173,0.4);
   --header-hamburger-background : rgba(11, 190, 173,0.8);
-  --orange: #F57F17;
+  --orange: #f77e15;
   --dark-orange: #FF5823;
   --orange-shadow: rgba(245, 127, 23,0.2);
   --white: #ffffff;

@@ -1,3 +1,8 @@
+.header-role-tagline{
+    margin: 6px 0 0 0;
+    font-size: 20px;
+}
+
 header {
     display: flex;
     height: 100px;
@@ -7,6 +12,21 @@ header {
     justify-content: space-between;
 }
 
+.header-details-name{
+    font-size: 24px;
+}
+
+.header-picture{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 100px 0;
+    box-shadow: 0 2px 0 0 var(--loader-color);
+    height: 390px;
+    width: 390px;
+}
+
 .header-container {
     min-height: fit-content;
     display: flex;
@@ -14,7 +34,36 @@ header {
     justify-content: center;
     text-align: center;
     height: 10%;
-    background-image: url("../../assets/Header-Home/flowers.jpg");
+    background-image: url("../../assets/Header-Home/window-2.jpg");
+    
+}
+
+.header-options .highlighted-btn {
+    margin: 0 0 0 29px;
+
+}
+
+.header-details-role{
+    flex-direction: column;
+    display: flex;
+    margin: 15px 0 25px 0;
+}
+
+.header-options .highlighted-btn:hover {
+    background-color: wheat;
+    margin: 0 0 0 29px;
+    color: black
+}
+
+.header-picture-background {
+    background-size: cover;
+    width: 91%;
+    background-position: center;
+    background-image: url("../../assets/Header-Home/SNValadez-Infosys.jpeg");
+    background-repeat: no-repeat;
+    height: 91%;
+    border-radius: 50%;
+    cursor: pointer;
     
 }
 
@@ -26,4 +75,34 @@ header {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+}
+
+.header-picture-background:hover {
+
+    transition: var(--sea-green-shadow);
+
+    transition: 1s ease-out;
+
+    transform: scale(1.08);
+
+}
+
+.header-parent{
+    align-items: center;
+    display: flex;
+    color: rgb(251, 246, 246);
+}
+
+.header-details-role{
+    font-family: cursive;
+    font-size: 20px;
+
+}
+
+.primary-text{
+    color: (--white);
+}
+
+.highlighted-text{
+    color: #fd1500;
 }
