@@ -24,6 +24,9 @@ function Header() {
             <div className="header-parent">
                 <div className="header-details">
                     <div className="colz">
+                        <div className="colz-icon">
+
+
                         <a href="https://github.com/SNValadez">
                             <i className="fa fa-github"></i>
                         </a>
@@ -33,6 +36,7 @@ function Header() {
                         <a href="https://www.linkedin.com/in/sn-valadez-0962a6207">
                             <i className="fa fa-linkedin"></i>
                         </a>
+                        </div>
                      
                     </div>
 
@@ -68,8 +72,8 @@ function Header() {
                         </h1>
 
                         <span className="header-role-tagline">
-                            Eager and knowledeable of building applications 
-                            with front and back-end technologies.
+                            Eager and knowledgeable of building applications 
+                            with both front and back-end technologies.
                         </span>
                     </span>
                 </div>
@@ -84,6 +88,10 @@ function Header() {
                 </div>
 
                 </div>
+                            <div className="header-picture">
+                                <div className="header-picture-background"></div>
+                            </div>
+
 
             </div>
         </div>
