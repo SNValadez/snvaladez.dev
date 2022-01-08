@@ -1,9 +1,10 @@
 
 import './App.css';
 import React, { useState } from "react";
-import Header from "./components/Header"
+//import Header from "./components/Header"
+import Main from "./components/Main"
 import About from "./components/About"
-import Footer from "./components/Footer"
+//import Footer from "./components/Footer"
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
 
   return (
     <div className="App">
-      
-     <Header></Header>
-     <Footer></Footer>
+
+      <Main></Main>
+     {/* <Header></Header>
+     <Footer></Footer> */}
     </div>
   );
 }

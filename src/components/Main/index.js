@@ -1,6 +1,7 @@
-import React from 'react'
-import Header from "./Header";
-import Footer from "./Footer";
+import React, { Component } from 'react'
+import Header from "./Header/index";
+import Footer from "./Footer/index";
+import "./style.css"
 
  function Main() {
     return (
