@@ -167,6 +167,27 @@ header {
     }
 }
 
-@media  and max width {
+@media screen and (max-width: 810px) {
+
+
+    .header-options, .header-details-role{
+
+        text-align: center;
+
+    }
+
+    .header-parent {
+        margin: 45px 0 0 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .header-picture{
+        margin: 0 !important;
+    }
+
+    .header-options{
+        justify-content: space-between;
+        display: flex;
+    }
     
 }
