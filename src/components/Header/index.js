@@ -66,7 +66,21 @@ function Header() {
                             ]}
                             />
                         </h1>
+
+                        <span className="header-role-tagline">
+                            Eager and knowledeable of building applications 
+                            with front and back-end technologies.
+                        </span>
                     </span>
+                </div>
+                <div className="header-options">
+                    <button className="btn primary-btn">
+                        {""}
+                        My Skills{" "}
+                    </button>
+                    <a href="https://www.linkedin.com/in/sn-valadez-0962a6207">
+                        <button className="btn highlighted-btn">Get Online Resume</button>
+                    </a>
                 </div>
 
                 </div>
