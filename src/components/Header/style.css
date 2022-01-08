@@ -120,4 +120,53 @@ header {
 
 .highlighted-text{
     color: #fd1500;
+
+
+}
+
+
+
+@media screen and (max-width: 910px) {
+
+    .header-picture{
+
+
+        width: 318px;
+        margin: 0 0 0 5px;
+        height: 318px;
+
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 1110px){
+    
+    .header-details-role .primary-text{
+        font-size: 13px;
+    }
+
+
+    .header-picture{
+        margin: 0 0 0 79px;
+    }
+
+    .header-details-name{
+        font-size: 21px;
+    }
+
+    
+    .header-options .btn{
+        z-index: 710;
+        width: 115px;
+        padding: 12px 0;
+
+    }
+}
+
+@media  and max width {
+    
 }
