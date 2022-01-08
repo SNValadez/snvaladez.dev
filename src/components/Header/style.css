@@ -7,3 +7,23 @@ header {
     justify-content: space-between;
 }
 
+.header-container {
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 10%;
+    background-image: url("../../assets/Header-Home/flowers.jpg");
+    
+}
+
+.stoke-me-base
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}

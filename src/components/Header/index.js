@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import Typical from 'react-typical';
 // import "./style.css"
 // import Nav from "../Nav"
@@ -20,7 +21,7 @@ import Typical from 'react-typical';
 
 function Header() {
     return (
-        <div className="header-container">
+        <div className="header-container stoke-me-base">
             <div className="header-parent">
                 <div className="header-details">
                     <div className="colz">
