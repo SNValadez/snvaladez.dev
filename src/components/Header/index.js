@@ -1,4 +1,5 @@
 import React from "react";
+import Typical from 'react-typical';
 // import "./style.css"
 // import Nav from "../Nav"
 
@@ -34,7 +35,42 @@ function Header() {
                         </a>
                      
                     </div>
+
+                    <div className="header-details-name">
+
+                        <span className="primary-text">
+                            {" "}
+                            Hey, there! I'M <span className="highlighted-text">S. N. Valadez</span>
+
+                        </span>
+                    </div>
+                
+                <div className="header-details-role">
+                    <span className="primary-text">
+                        {" "}
+                        <h1>
+                            {" "}
+                            <Typical 
+                            loop={Infinity}
+                            steps={[
+                                "Hard-Working 🦾",
+                                1000,
+                                "Full Stack Web Developer 💻",
+                                1000,
+                                "Enthusiastic 💞",
+                                1000,
+                                "Software Engineer 😎",
+                                1000,
+                                "Team Player 🌎",
+                                1000,
+                            ]}
+                            />
+                        </h1>
+                    </span>
                 </div>
+
+                </div>
+
             </div>
         </div>
     )
