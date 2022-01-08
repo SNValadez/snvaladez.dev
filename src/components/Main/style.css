@@ -1,3 +1,7 @@
 .main-con {
+    flex-direction: column ;
+    min-height: 680px;
     display: flex;
+    height: 48vh !important;
+    justify-content: space-between;
 }
