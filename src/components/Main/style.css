@@ -1,8 +1,7 @@
 .main-con {
     flex-direction: column ;
-    min-height: 680px;
+    min-height: 690px;
     display: flex;
-    height: 48vh !important;
     background-image: url("../../assets/Header-Home/window-2.jpg");
     justify-content: space-between;
 }
