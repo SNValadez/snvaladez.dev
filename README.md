@@ -2,6 +2,8 @@
 
 A developer portfolio project that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deployed Link: https://snvaladez.github.io/snvaladez.dev/
+
 ## Available Scripts
 
 In the project directory, you can run:
