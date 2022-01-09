@@ -79,10 +79,12 @@ function Header() {
                     </span>
                 </div>
                 <div className="header-options">
+                    <a href="https://snvaladez.github.io/">
                     <button className="btn primary-btn">
                         {""}
-                        My Skills{" "}
+                        Online Portfolio{" "}
                     </button>
+                    </a>
                     <a href="https://www.linkedin.com/in/sn-valadez-0962a6207">
                         <button className="btn highlighted-btn">Get Online Resume</button>
                     </a>
