@@ -7,7 +7,7 @@ import "./style.css"
  function Main() {
     return (
         <div className="main-con">
-            <BaseBoost></BaseBoost>
+            {/* //<BaseBoost></BaseBoost> */}
             <Header></Header>
             <Footer></Footer>
             
