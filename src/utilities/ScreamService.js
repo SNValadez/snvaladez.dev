@@ -55,7 +55,7 @@ import { Subject } from "rxjs"
     }
     
     checkCurrentScreamUnderView =(event)=>{
-        if(!event || object.keys(event).length < 1)
+        if(!event || Object.keys(event).length < 1)
         return;
 
         for(let scream of TOTAL_SCREAM){

@@ -96,8 +96,20 @@ const getBaseBoostOptions = () => {
 
                         <div className="baseboost-parent">
 
-                            
-                            <div></div>
+
+                            <div className="baseboost-hamburger" onClick={()=> setShowBaseOptions(!showBaseOptions)}>
+                                <FontAwesomeIcon className="baseboost-hamburger-bars" icon={faBars} />
+
+                            </div>
+
+
+                            <div className="baseboost-logo">
+                                <span>*S. N. Valadez</span>
+                            </div>
+
+
+                            <div className={showBaseOptions ? "baseboost-options show-hamburger-options" : "baseboost-options"}></div>
+
                         </div>
 
            </div>
