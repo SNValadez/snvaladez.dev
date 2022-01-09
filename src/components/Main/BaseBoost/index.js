@@ -4,7 +4,7 @@ import {TOTAL_SCREAM, GET_SCREAM_INDIE} from "../../../utilities/comUtils"
 import ScreamService from "../../../utilities/ScreamService"
 import "./style.css"
 
-import {faBars} from "@fortawesome/free-solid-svg-icons"
+import {faBars, faThermometerQuarter} from "@fortawesome/free-solid-svg-icons"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 function BaseBoost() {
@@ -26,12 +26,85 @@ return
 
 let currentScreamSub = ScreamService.currentScreamBroadCaster.subscribe(updateCurrentScream)
 
-    return (
-        <div>
-            
-        </div>
+
+
+const getBaseBoostOptions = () => {
+    return(
+        TOTAL_SCREAM.map((scream, i)=> (
+
+            <div key={scream.scream_name} className={getBaseBoostOptionsClass(i)}
+            onClick={() => switchScream(i, scream)}>
+
+
+
+
+
+
+
+                <span>{scream.scream_name}</span>
+            </div>
+
+        )
+
+        )
     )
 }
+
+
+        const getBaseBoostOptionsClass =(index) =>{
+
+    let classy = "baseboost-option";
+
+    if (index < TOTAL_SCREAM.length -1)
+    classy += "baseboost-option-sep";
+
+    if (selectedScream === index)
+    classy += "selected-baseboost-op";
+
+
+    return 
+
+}
+
+
+
+        const switchScream=(index, scream)=>{
+
+
+            let screamComponent = document.getElementById(scream.scream_name);
+                if (!screamComponent) return;
+
+
+                screamComponent.scrollIntoView({ behavior: "smooth" });
+
+                setShowBaseOptions(false);
+
+                            setSelectedScream(index)
+
+
+
+        };
+
+
+
+    return (
+        <div>
+
+           <div className="baseboost-option" onClick={() => setShowBaseOptions(!showBaseOptions)}>
+
+
+
+                        <div className="baseboost-parent">
+
+                            
+                            <div></div>
+                        </div>
+
+           </div>
+
+        </div>
+    )
+    }
 
 
 export default BaseBoost;
