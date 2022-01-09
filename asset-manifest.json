@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/snvaladez.dev.github.io/static/css/main.48564927.css",
-    "main.js": "/snvaladez.dev.github.io/static/js/main.e33066bc.js",
-    "static/media/SNValadez-Infosys.jpeg": "/snvaladez.dev.github.io/static/media/SNValadez-Infosys.4029d7022c01383c90a6.jpeg",
-    "static/media/window-2.jpg": "/snvaladez.dev.github.io/static/media/window-2.f223d938f8529bdccd3c.jpg",
-    "index.html": "/snvaladez.dev.github.io/index.html",
-    "main.48564927.css.map": "/snvaladez.dev.github.io/static/css/main.48564927.css.map",
-    "main.e33066bc.js.map": "/snvaladez.dev.github.io/static/js/main.e33066bc.js.map"
+    "main.css": "/snvaladez.dev/static/css/main.2bc1c7db.css",
+    "main.js": "/snvaladez.dev/static/js/main.e33066bc.js",
+    "static/media/SNValadez-Infosys.jpeg": "/snvaladez.dev/static/media/SNValadez-Infosys.4029d7022c01383c90a6.jpeg",
+    "static/media/window-2.jpg": "/snvaladez.dev/static/media/window-2.f223d938f8529bdccd3c.jpg",
+    "index.html": "/snvaladez.dev/index.html",
+    "main.2bc1c7db.css.map": "/snvaladez.dev/static/css/main.2bc1c7db.css.map",
+    "main.e33066bc.js.map": "/snvaladez.dev/static/js/main.e33066bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.48564927.css",
+    "static/css/main.2bc1c7db.css",
     "static/js/main.e33066bc.js"
   ]
 }
