@@ -88,6 +88,14 @@ function Header() {
                     <a href="https://www.linkedin.com/in/sn-valadez-0962a6207">
                         <button className="btn highlighted-btn">Get Online Resume</button>
                     </a>
+                    <br></br>
+                    <br></br>
+                    <a href="https://git.heroku.com/quackchat-project3.git">
+                    <button className="btn primary-btn">
+                        {" "}
+                        QuackChat Group Project{" "}
+                    </button>
+                    </a>
                 </div>
 
                 </div>
