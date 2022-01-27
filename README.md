@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# SNValadez Developer Portfolio (Created with React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A developer portfolio project that was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Deployed Link: https://snvaladez.github.io/snvaladez.dev/
 
 ## Available Scripts
 
