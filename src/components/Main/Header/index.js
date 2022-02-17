@@ -96,11 +96,12 @@ function Header() {
                         QuackChat Group Project{" "}
                     </button>
                     </a>
-                    
+                     
                 </div>
 
                 </div>
                             <div className="header-picture">
+
                                 <div className="header-picture-background"></div>
                             </div>
 
